@@ -280,3 +280,34 @@ p.muted {
   font-weight: 600;
   line-height: 1.7;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.image-card-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.image-card-date {
+  font-size: 0.78rem;
+  color: #888;
+  margin-bottom: 0.3rem;
+}
+
+.image-card img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  object-fit: cover;
+}
