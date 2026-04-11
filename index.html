@@ -3,50 +3,53 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home-Hosting-Network</title>
+  <title>Home — Home-Hosting-Network</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="Home.png">
 </head>
 <body>
-
 <nav>
   <a class="nav-logo" href="index.html">Home-Hosting<span>Network</span></a>
   <ul class="nav-links">
     <li><a href="index.html" class="active">Home</a></li>
     <li><a href="updates.html">Updates</a></li>
+    <li><a href="rules.html">Rules</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="images.html">Images</a></li>
-    <li><a href="about.html">About (NEW!!!)</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="https://www.tiktok.com/@homehosting5" target="_blank" class="tiktok-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.2 8.2 0 0 0 4.79 1.52V6.75a4.85 4.85 0 0 1-1.02-.06z"/></svg> TikTok</a></li>
   </ul>
 </nav>
-
 <div class="page">
   <h1>Home-Hosting<br><span>Network</span></h1>
-  <p class="subtitle">Minecraft Java Server</p>
-  <p class="server-desc">
-Welcome to our semi-anarchy Java server! No map resets, pure survival — but chaos comes with consequences. Lag machines, exploits, harassment, slurs, sexism, racism, or illegal activity are not allowed. Offenders may face play restrictions (a timed wait on join) or chat bans, enforced by our NuisancePlugin. Build, explore, fight, and make your mark — but respect the server and its players, or face the consequences!</p>
+  <p class="subtitle">Minecraft Beta 1.7.3 Server</p>
+
+  <p class="server-desc">Welcome to the Home Hosting Network Beta 1.7.3 server! We've gone back to where it all began — pure classic Beta Minecraft. No modern mechanics, no updates, just the raw Beta 1.7.3 experience. Explore, mine resources, build, and experience Minecraft the way it was in 2011. The world is yours.</p>
+
+  <div class="notice">&#9650; Server has been reset &amp; relaunched as a Beta 1.7.3 server. Fresh world, fresh start.</div>
 
   <div class="ip-row">
-    <div class="ip-text" id="ipText">play.home-hosting-network.uk</div>
+    <div class="ip-text" id="ipText">beta.home-hosting-network.uk</div>
     <button id="copyBtn" onclick="copyIP()">Copy IP</button>
   </div>
 
   <div class="tags">
-    <span class="tag accent">Semi-Anarchy</span>
-    <span class="tag">Java 1.21.11</span>
-    <span class="tag">40K × 40K World</span>
+    <span class="tag accent">Beta 1.7.3</span>
+    <span class="tag">Survival</span>
+    <span class="tag">Fresh World</span>
+    <span class="tag green">Classic Minecraft</span>
   </div>
 
   <hr>
 
   <div class="info">
-    Version &nbsp;<strong>Java 1.21.11</strong><br>
-    Mode &nbsp;<strong>Semi-Anarchy</strong><br>
-    World Border &nbsp;<strong>40,000 × 40,000 blocks</strong>
+    Version &nbsp;<strong>Beta 1.7.3</strong><br>
+    Mode &nbsp;<strong>Survival</strong><br>
+    World &nbsp;<strong>Fresh Reset</strong><br>
+    IP &nbsp;<strong>beta.home-hosting-network.uk</strong>
   </div>
-
+</div>
 <script>
   function copyIP() {
     navigator.clipboard.writeText(document.getElementById('ipText').textContent);
@@ -56,5 +59,6 @@ Welcome to our semi-anarchy Java server! No map resets, pure survival — but ch
     setTimeout(() => { btn.textContent = 'Copy IP'; btn.classList.remove('copied'); }, 2000);
   }
 </script>
+<footer>&copy; 2026 Home-Hosting-Network &nbsp;&middot;&nbsp; Beta 1.7.3 &nbsp;&middot;&nbsp; beta.home-hosting-network.uk</footer>
 </body>
 </html>
